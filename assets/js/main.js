@@ -22,11 +22,11 @@ fetchJSON().then(data => {
 //create cards
 function createCards(data) {
     main.innerHTML='';
-    
+
     for(let i=0; i<data.length; i++) {
         const container=createDiv('article',main);
         //name
-        const name=createDiv('h2',container,data[i].name);
+        createDiv('h2',container,data[i].name);
 
         //cover
         const img=createDiv('img',container);
@@ -38,7 +38,7 @@ function createCards(data) {
         });
 
         //year
-        const year=createDiv('p',container,data[i].year);
+        createDiv('p',container,data[i].year);
     }
 }
 
