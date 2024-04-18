@@ -1,0 +1,9 @@
+@use "extends";
+
+footer {
+    z-index: 2;
+    @include box(100%,5vh);
+    @extend .flexCenterEnd;
+    padding-right: 5%;
+    background-color: $colorFooterBackground;
+}

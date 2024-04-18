@@ -1,0 +1,13 @@
+@use "extends";
+
+header {
+    @include box(100%,10vh);
+    @extend .flexCenter;
+    background-color: $colorHeaderBackground;
+
+    nav {
+        position: absolute;
+        top:3%;
+        right:3%;
+    }
+}

@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Sonic Youth",
+        "year": "1981",
+        "artists": ["Kim Gordon", "Thurston Moore", "Lee Ronaldo", "Richard Edson"],
+        "description": "Sonic Youth was the band's debut record, featuring five songs recorded in late '81 with original drummer Richard Edson. Though considered an EP by some, the band have always referred to it as the first album, and that is the official status appointed to it for the purposes of this site. The record was finally reissued on Geffen/Goofin' in 2006 w/ seven exclusive live tracks from 1981, and an instrumental demo of \"I Dreamed I Dream\".",
+        "cover":"http://sonicyouth.com/mustang/lp/ep01a.jpg",
+        "back":"http://sonicyouth.com/mustang/lp/ep01c.jpg"
+    },
+    {
+        "name": "Confusion is sex",
+        "year": "1983",
+        "artists": ["Kim Gordon", "Thurston Moore", "Lee Ronaldo", "Jim Sclavunos"],
+        "description": "Confusion Is Sex was Sonic Youth's second release, this time with interim drummer Jim Sclavunos behind the kit, aside from two tracks which feature Bob Bert. The album was originally conceived as a quickie single, but as more songs were written they decided to record all of their new material instead, laying the foundation for their first full-length release...",
+        "cover":"http://sonicyouth.com/mustang/lp/confusion.jpg",
+        "back":"http://sonicyouth.com/mustang/lp/lp01et.jpg"
+    },
+    {
+        "name": "Bad moon rising",
+        "year": "1984",
+        "artists": ["Kim Gordon", "Thurston Moore", "Lee Ronaldo", "Bob Bert"],
+        "description": "\"Bad Moon Rising\" was Sonic Youth's third album, preceded by the \"Death Valley '69\" 7\" single in 1984 which featured demo versions of both \"Death Valley\" and \"Brave Men Run\" from Bad Moon Rising. The original 12\" release contained 8 songs, from the majestic opening notes of \"Intro\" to Lydia Lunch's furious howl that ends \"Death Valley '69\" -- all songs segue together except for the side break between \"I Love Her All The Time\" and \"Ghost Bitch\" (which is barely noticeable on the CD releases). Bad Moon Rising also marks SY's first music video (for \"Death Valley\", of course).",
+        "cover": "http://sonicyouth.com/mustang/lp/badmoon.jpg",
+        "back": "http://sonicyouth.com/mustang/lp/lp03vt.jpg"
+    },
+    {
+        "name": "Evol",
+        "year": "1985",
+        "artists": ["Kim Gordon", "Thurston Moore", "Lee Ronaldo", "Steve Shelley"],
+        "description": "\"EVOL\" was Sonic Youth's fourth album, significant for one fairly obvious reason: the addition of Steve Shelley behind the kit. Steve joined the band in mid 1985, and this is the first album he plays on. EVOL also features the first real \"guest appearance\" on a Sonic Youth album -- Mike Watt, who contributes bass to \"In The Kingdom #19\" and the non-LP bonus track \"Bubblegum\". \"Shadow Of A Doubt\" became their second music video.",
+        "cover": "http://sonicyouth.com/mustang/lp/evol.jpg",
+        "back": "http://sonicyouth.com/mustang/lp/lp04ut.jpg"
+    },
+    {
+        "name": "Sister",
+        "year": "1986",
+        "artists": ["Kim Gordon", "Thurston Moore", "Lee Ronaldo", "Steve Shelley"],
+        "description": "\"Sister\" was Sonic Youth's fifth album, and their second consecutive album with the same drummer performing on all tracks. Obviously, SY had found their groove w/ Steve behind the beats, and it's with those beats that \"Sister\" begins, kicking off with a little tune called \"Schizophrenia\" that's been a sonic staple since its composition. It's on this track that Thurston and Kim first trade verses, and that's just one of several sonic firsts on this LP (also including use of acoustic guitar for melodic purposes, use of a Moog synthesizer, and the return of Thurston on bass for the first time since \"Confusion Is Sex\"). This is also the only Sonic Youth album (well, until NYC Ghosts & Flowers, but that's another story) that didn't have a proper single release, though a video clip for \"Beauty Lies In The Eye\" was filmed.",
+        "cover": "http://sonicyouth.com/mustang/lp/lp05at.jpg",
+        "back": "http://sonicyouth.com/mustang/lp/lp05bt.jpg"
+    },
+    {
+        "name": "Daydream nation",
+        "year": "1988",
+        "artists": ["Kim Gordon", "Thurston Moore", "Lee Ronaldo", "Steve Shelley"],
+        "description": "\"Daydream Nation\" was Sonic Youth's sixth album, and their first double-LP, clocking in at just over 70 minutes. This was their last album recorded for an \"independent\" label (though \"The Whitey Album\" was released afterwards, it was ready to go prior to Daydream's conception), and was arguably the record that drew the strongest major label attention. It kicks off with the anthemic \"Teenage Riot\", again pairing Kim and Thurston vocally, and never lets up, boasting an unprecedented three Lee songs, another Mike Watt appearance (on the solemn piano/amp burnout collage \"Providence\"), and the sprawling \"Trilogy\" which closes the record. Three singles were released from the album, along with various live versions of \"Silver Rocket\", and all 4 songs had video clips filmed.",
+        "cover": "http://sonicyouth.com/mustang/lp/daydream.jpg",
+        "back": "http://sonicyouth.com/mustang/lp/lp06mt.jpg"
+    },
+    {
+        "name": "The withey album",
+        "year": "1989",
+        "artists": ["Kim Gordon", "Thurston Moore", "Lee Ronaldo", "Steve Shelley","Mike Watt"],
+        "description": "Sonic Youth's seventh album sort of originated with a long-running band joke involving SY's claim to one day cover the Beatles' White Album in its entirety -- somehow this project morphed into a twisted beatbox/sampler experiment masquerading as a tribute to Madonna... SY even took Madonna's surname for their own, calling themselves \"Ciccone Youth\". The first Ciccone Youth single, featuring SY's version of \"Into The Groovey\" and Mike Watt's cover of \"Burnin' Up\" was initially released in 1986. Ciccone Youth unveiled themselves again on the \"Master-Dik\" EP, and decided to round out an entire album in late '87/early '88. Supposedly the finished project was put on hold until after the release of Daydream Nation, to ensure that attention wouldn't be diverted from the more \"serious\" album effort. In any case, \"The Whitey Album\" is a weird, wild, hit-or-miss collection of sampled beats, fresh rhymes, 80s pop covers, and a few really good tunes.",
+        "cover": "http://sonicyouth.com/mustang/lp/lp07dt.jpg",
+        "back": "http://sonicyouth.com/mustang/lp/lp07jt.jpg"
+    },
+    {
+        "name": "Goo",
+        "year": "1990",
+        "artists": ["Kim Gordon", "Thurston Moore", "Lee Ronaldo", "Steve Shelley"],
+        "description": "\"Goo\" was Sonic Youth's eighth album, and their first for DGC/Geffen. The album was their major label debut, and with arena rock staples like \"Kool Thing\" and \"Dirty Boots\" deep in its grooves, it allowed Sonic Youth to enter the mainstream world, destroy everything in their path, and emerge victorious, riding the top 10 charts to sonic stardom and glory....... or at least get them the opening spot on the 1991 Crazy Horse tour.",
+        "cover": "http://sonicyouth.com/mustang/lp/lp08kt.jpg",
+        "back": "http://sonicyouth.com/mustang/lp/lp08lt.jpg"
+    },
+    {
+        "name": "Dirty",
+        "year": "1992",
+        "artists": ["Kim Gordon", "Thurston Moore", "Lee Ronaldo", "Steve Shelley"],
+        "description": "\"Dirty\" was Sonic Youth's ninth album, and the second recorded for DGC/Geffen. They went into the studio with a perhaps unprecedented abundance of material, and ended up issuing a double-vinyl release w/ an exclusive bonus track, \"Stalker\". A \"limited\" amount of the CD versions featured a \"dirty picture\" in the tray liner. Four singles were released, each with a video (\"100%\", \"Youth Against Fascism\", \"Sugar Kane\", & the fanmade \"Drunken Butterfly\"), all of which are now available in glorious form on the \"Corporate Ghost\" DVD!. \"Dirty\" also marks the first significant appearance of three-guitar/no-bass Sonic Youth, present on \"Swimsuit Issue\", \"Wish Fulfillment\", & \"On The Strip\". Kim also plays guitar on \"Creme Brulee\".",
+        "cover": "http://sonicyouth.com/mustang/lp/dirty.jpg",
+        "back": "http://sonicyouth.com/mustang/lp/lp09qt.jpg"
+    },
+    {
+        "name": "Washing machine",
+        "year": "1995",
+        "artists": ["Kim Gordon", "Thurston Moore", "Lee Ronaldo", "Steve Shelley"],
+        "description": "Sonic Youth's eleventh album \"Washing Machine\" is the first record to almost exclusively feature Kim on guitar rather than bass, and contains some of their lengthiest material since \"Goo\" and \"Daydream Nation\", including the epic \"Diamond Sea\" which drifts onward for an unprecedented 20 minutes, still the longest track on any SY album (excluding the SYR releases). Incidentally, \"The Diamond Sea\" would prove to be one of the band's most popular songs, and it along with SY's headlining spot on the summer Lollapalooza tour would introduce legions of new fans to their music.",
+        "cover": "http://sonicyouth.com/mustang/lp/washing.jpg",
+        "back": "http://sonicyouth.com/mustang/lp/lp13it.jpg"
+    },
+    {
+        "name": "Murray street",
+        "year": "2002",
+        "artists": ["Kim Gordon", "Thurston Moore", "Lee Ronaldo", "Steve Shelley","Jim O'Rourke"],
+        "description": "Murray Street is Sonic Youth's 14th album. It was released in early June in Japan (featuring the bonus track \"Street Sauce\"), June 10th in Europe, and on June 25th in North America. Some French copies of the album came with a limited edition bonus blue 10\" featuring 3 exclusive tracks from SY's recent soundtrack works: \"Derniere Minute Electrifee\" on one side, \"Le Paysage Zim Zum\" and \"Coca Neon Kamera Sutra\" on the other. Only 500 of these were available. In North America, the disc is enhanced, and includes a screen saver, plus a link to a \"secret site\" on sonicyouth.com that features exclusive promo photographs, desktop backgrounds, all 3 songs from the Kali Yug EP for mp3 download, and two music videos for \"The Empty Page\" and \"Radical Adults\". The gatefold vinyl edition is available via Smells Like Records on the \"Goofin'\" imprint (Rain on Tin and Karen have been switched to accomodate the vinyl's capacity limits).",
+        "cover": "http://sonicyouth.com/mustang/lp/lp17at.jpg",
+        "back": "http://sonicyouth.com/mustang/lp/lp17ft.jpg"
+    },
+    {
+        "name": "Sonic nurse",
+        "year": "2004",
+        "artists": ["Kim Gordon", "Thurston Moore", "Lee Ronaldo", "Steve Shelley","Jim O'Rourke"],
+        "description": "Sonic Nurse is Sonic Youth's 15th album. With Jim O'Rourke continuing his role as the 'fifth sonic', the album feels like the logical continuation of the ground established with \"Murray Street\", but through the revisitation of \"vintage\" sonic tunings, mixes the complexity of the quintet dynamic with a familiar overtone (just over half of the album is written in the modified 'Pavement tuning' that premiered on 'Murray Street', while the other half features tunings such as GGDDD#D#, which date back to \"Kill Yr Idols\", and the classic \"Expressway\" tuning EG#EG#EG#). Unlike the previous two albums, \"Nurse\" clocks in over an hour, with ten tracks, most featuring extended instrumental extrapolations. The band continues to provide exclusive online 'enhanced' CD content, this time including a video for album closer 'Peace Attack' and a rare insight into their songwriting process as the band composes 'Paper Cup Exit'.",
+        "cover": "http://sonicyouth.com/mustang/lp/lp18st.jpg",
+        "back": "http://sonicyouth.com/mustang/lp/lp18dt.jpg"
+    },
+    {
+        "name": "The destroyed room: B-sides and rarities",
+        "year": "2006",
+        "artists": ["Kim Gordon", "Thurston Moore", "Lee Ronaldo", "Steve Shelley"],
+        "description": "Rather Ripped is Sonic Youth's 16th album, and their first without Jim O'Rourke's assistance since \"A Thousand Leaves\". Here, SY provide a 12-song set of concise melodic rockers, recorded once again at Sear Sound (\"Sister\", \"Experimental Jet Set, Trash and No Star\", \"Psychic Hearts\"), capturing crystal clear guitar tones, both warm and bright. The band's own Echo Canyon studio would close forever shortly before the album's release, and some of the last tracks recorded were two 'Rather Ripped' outtakes that appear on a companion 7\". Kim plays bass on all tracks but one, Lee's \"Rats\", which features Thurston on bass for the first time since \"My Friend Goo\". Former Free Kitten/Pavement bassist Mark Ibold was enlisted for the subsequent tour, playing bass on most songs, opening the floor for Kim to concentrate on her singing (and dancing!) for the 'Rather Ripped' tunes.",
+        "cover": "http://sonicyouth.com/mustang/lp/lp20k.jpg",
+        "back": "http://sonicyouth.com/mustang/lp/lp20ht.jpg"
+    }
+    
+]
