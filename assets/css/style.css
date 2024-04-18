@@ -58,6 +58,10 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
 .flexCenter, header {
   display: flex;
   justify-content: center;
@@ -101,11 +105,32 @@ header {
   width: 100%;
   height: 10vh;
   background-color: rgb(29, 29, 29);
+  position: relative;
 }
 header nav {
   position: absolute;
-  top: 3%;
+  bottom: 3%;
   right: 3%;
+  font-size: 2.5vw;
+}
+@media only screen and (min-width: 1000px) {
+  header nav {
+    font-size: 1.5vw;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  header nav {
+    font-size: 1vw;
+  }
+}
+header h1 {
+  font-size: 4vw;
+  color: rgb(255, 255, 255);
+}
+@media only screen and (min-width: 1300px) {
+  header h1 {
+    font-size: 3vw;
+  }
 }
 
 .flexCenter, header {
@@ -151,12 +176,26 @@ main {
   width: 100%;
   height: 85vh;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   flex-wrap: wrap;
   padding-left: 2%;
   padding-right: 2%;
   overflow-y: scroll;
+}
+@media only screen and (min-width: 700px) {
+  main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (min-width: 1000px) {
+  main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (min-width: 1300px) {
+  main {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 main article > h2, main article > img {
   margin-bottom: 10%;
@@ -169,7 +208,17 @@ main article {
   border-radius: 20px 20px;
 }
 main article h2 {
-  font-size: 1vw;
+  font-size: 3.5vw;
+}
+@media only screen and (min-width: 700px) {
+  main article h2 {
+    font-size: 2vw;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  main article h2 {
+    font-size: 1.5vw;
+  }
 }
 main article img {
   width: 90%;
@@ -183,7 +232,17 @@ main article img:hover {
   box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.6235294118);
 }
 main article p {
-  font-size: 0.7vw;
+  font-size: 3vw;
+}
+@media only screen and (min-width: 700px) {
+  main article p {
+    font-size: 2vw;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  main article p {
+    font-size: 1.2vw;
+  }
 }
 
 #display {
@@ -274,6 +333,22 @@ footer {
   height: 5vh;
   padding-right: 5%;
   background-color: rgb(29, 29, 29);
+  font-size: 3vw;
+}
+@media only screen and (min-width: 700px) {
+  footer {
+    font-size: 2vw;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  footer {
+    font-size: 1.5vw;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  footer {
+    font-size: 1vw;
+  }
 }
 
 body {
@@ -282,4 +357,5 @@ body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  font-family: "Roboto";
 }/*# sourceMappingURL=style.css.map */

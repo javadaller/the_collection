@@ -1,6 +1,7 @@
 @import "reset";
 @import "variables";
 @import "mixins";
+@import 'fonts';
 @import "header";
 @import "main";
 @import "footer";
@@ -10,4 +11,5 @@ body {
     color:$colorBody;
     @include box(100%,100vh);
     overflow: hidden;
+    font-family: 'Roboto';
 }

@@ -3,12 +3,22 @@
 main {
     @include box(100%,85vh);
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr); 
+    grid-template-columns: repeat(1, 1fr);
+    //grid-template-rows: repeat(5, 1fr); 
     flex-wrap: wrap;
     padding-left: 2%;
     padding-right: 2%;
     overflow-y: scroll;
+
+    @include responsive(700px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @include responsive(1000px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @include responsive(1300px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
 
     article > h2, article > img {
         margin-bottom: 10%;
@@ -23,7 +33,14 @@ main {
         border-radius: 20px 20px;
 
         h2 {
-            font-size: 1vw;
+            font-size: 3.5vw;
+
+            @include responsive(700px) {
+                font-size: 2vw;
+            }
+            @include responsive(1000px) {
+                font-size: 1.5vw;
+            }
         }
 
         img {
@@ -40,7 +57,14 @@ main {
         }
 
         p {
-            font-size: 0.7vw;
+            font-size: 3vw;
+
+            @include responsive(700px) {
+                font-size: 2vw;
+            }
+            @include responsive(1000px) {
+                font-size: 1.2vw;
+            }
         }
     }
 }

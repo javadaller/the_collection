@@ -6,4 +6,15 @@ footer {
     @extend .flexCenterEnd;
     padding-right: 5%;
     background-color: $colorFooterBackground;
+    font-size: 3vw;
+
+    @include responsive(700px) {
+        font-size: 2vw;
+    }
+    @include responsive(1000px) {
+        font-size: 1.5vw;
+    }
+    @include responsive(1200px) {
+        font-size: 1vw;
+    }
 }

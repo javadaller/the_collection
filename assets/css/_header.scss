@@ -4,10 +4,26 @@ header {
     @include box(100%,10vh);
     @extend .flexCenter;
     background-color: $colorHeaderBackground;
+    position: relative;
 
     nav {
         position: absolute;
-        top:3%;
+        bottom:3%;
         right:3%;
+        font-size: 2.5vw;
+        @include responsive(1000px) {
+            font-size:1.5vw;
+        }
+        @include responsive(1500px) {
+            font-size:1vw;
+        }
+    }
+
+    h1 {
+        font-size: 4vw;
+        color:$colorHeader;
+        @include responsive(1300px) {
+            font-size:3vw;
+        }
     }
 }
