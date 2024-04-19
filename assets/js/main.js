@@ -6,6 +6,7 @@ const cover=document.querySelector('#cover');
 const back=document.querySelector('#back');
 const title=document.querySelector('#title');
 const description=document.querySelector('#description');
+const musicians=document.querySelector('#musicians');
 const close=document.querySelector('#close');
 
 //data
@@ -45,35 +46,76 @@ function createCards(data) {
 //card click
 function cardClick(data) {
     display.style.display='flex';
-    main.style.filter='blur(5px)';
+    display.classList.remove('fadeOut');
+    display.classList.add('fadeIn');
+
+    main.classList.remove('blurOut');
+    main.classList.add('blurIn');
 
     cover.style.backgroundImage='url('+data.cover+')';
     back.style.backgroundImage='url('+data.back+')';
 
-    title.innerHTML=data.name;
+    title.innerHTML=data.name+' ('+data.year+')';
     description.innerHTML=data.description;
+    musicians.innerHTML=data.artists;
 }
 
 //card close
 close.addEventListener("click", (event) => {
-    display.style.display='none';
-    main.style.filter='blur(0)';;
+    display.classList.remove('fadeIn');
+    display.classList.add('fadeOut');
+
+    main.classList.remove('blurIn');
+    main.classList.add('blurOut');
+
+    closeCard();
 });
+
+async function closeCard() {
+    await sleep(500);
+    display.style.display='none';
+}
 
 //sort cards
 function sortCards() {
     const order = document.querySelector('#sort').value;
 
     fetchJSON().then(data => {
-        sorting(order, data);
+        if (order === 'name') {
+            data.sort((a, b) => a.name.localeCompare(b.name));
+        } else if (order === 'year') {
+            data.sort((a, b) => parseInt(a.year) - parseInt(b.year));
+        }
+        createCards(data);
     });
 }
 
-function sorting(order, data) {
-    if (order === 'name') {
-        data.sort((a, b) => a.name.localeCompare(b.name));
-    } else if (order === 'year') {
-        data.sort((a, b) => parseInt(a.year) - parseInt(b.year));
+
+//preload back cover
+
+let imagesToPreload = [];
+
+fetchJSON().then(data => {
+    data.forEach(element => {
+        imagesToPreload.push(element.back);
+    });
+    preloadImages(imagesToPreload);
+});
+
+function preloadImages(urls) {
+    let imagePromises = [];
+    for (var i = 0; i < urls.length; i++) {
+        const img = new Image();
+        img.src = urls[i];
+        const promise = new Promise(function(resolve, reject) {
+            img.onload = function() {
+                resolve();
+            };
+            img.onerror = function() {
+                reject();
+            };
+        });
+        imagePromises.push(promise);
     }
-    createCards(data);
+    return Promise.all(imagePromises);
 }

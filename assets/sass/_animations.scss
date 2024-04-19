@@ -1,0 +1,51 @@
+.blurIn {
+    animation:blurIn 0.5s linear forwards;
+}
+@keyframes blurIn {
+    0%{
+        filter:blur(0);
+    }
+    100%{
+        filter:blur(5px);
+    }
+}
+
+.blurOut {
+    animation:blurOut 0.5s linear forwards;
+}
+@keyframes blurOut {
+    0%{
+        filter:blur(5px);
+    }
+    100%{
+        filter:blur(0);
+    }
+}
+
+.fadeIn {
+    animation:fadeIn 0.5s linear forwards;
+}
+@keyframes fadeIn {
+    0%{
+        filter:blur(5px);
+        opacity:0;
+    }
+    100%{
+        filter:blur(0);
+        opacity:1;
+    }
+}
+
+.fadeOut {
+    animation:fadeOut 0.5s linear forwards;
+}
+@keyframes fadeOut {
+    0%{
+        filter:blur(5px);
+        opacity:1;
+    }
+    100%{
+        filter:blur(0);
+        opacity:0;
+    }
+}
