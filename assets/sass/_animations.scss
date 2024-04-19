@@ -1,5 +1,5 @@
 .blurIn {
-    animation:blurIn 0.5s linear forwards;
+    animation:blurIn 0.3s linear forwards;
 }
 @keyframes blurIn {
     0%{
@@ -11,7 +11,7 @@
 }
 
 .blurOut {
-    animation:blurOut 0.5s linear forwards;
+    animation:blurOut 0.3s linear forwards;
 }
 @keyframes blurOut {
     0%{
@@ -23,7 +23,7 @@
 }
 
 .fadeIn {
-    animation:fadeIn 0.5s linear forwards;
+    animation:fadeIn 0.3s linear forwards;
 }
 @keyframes fadeIn {
     0%{
@@ -37,7 +37,7 @@
 }
 
 .fadeOut {
-    animation:fadeOut 0.5s linear forwards;
+    animation:fadeOut 0.3s linear forwards;
 }
 @keyframes fadeOut {
     0%{

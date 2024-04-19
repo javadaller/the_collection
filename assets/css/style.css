@@ -63,7 +63,7 @@ p, h1, h2, h3, h4, h5, h6 {
   src: url("../fonts/Roboto-Regular.ttf") format("truetype");
 }
 .blurIn {
-  animation: blurIn 0.5s linear forwards;
+  animation: blurIn 0.3s linear forwards;
 }
 
 @keyframes blurIn {
@@ -75,7 +75,7 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 }
 .blurOut {
-  animation: blurOut 0.5s linear forwards;
+  animation: blurOut 0.3s linear forwards;
 }
 
 @keyframes blurOut {
@@ -87,7 +87,7 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 }
 .fadeIn {
-  animation: fadeIn 0.5s linear forwards;
+  animation: fadeIn 0.3s linear forwards;
 }
 
 @keyframes fadeIn {
@@ -101,7 +101,7 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 }
 .fadeOut {
-  animation: fadeOut 0.5s linear forwards;
+  animation: fadeOut 0.3s linear forwards;
 }
 
 @keyframes fadeOut {
@@ -139,7 +139,7 @@ p, h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 
-.flexCenterColumn, #display article, main article {
+.flexCenterColumn, main article {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -210,7 +210,7 @@ header h1 {
   align-items: center;
 }
 
-.flexCenterColumn, main article, #display article {
+.flexCenterColumn, main article {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -299,6 +299,7 @@ main article p {
 
 #display {
   z-index: 10;
+  position: relative;
   display: none;
   flex-direction: column;
   justify-content: center;
@@ -325,10 +326,18 @@ main article p {
     width: 50%;
   }
 }
+#display #close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
 #display div {
-  position: relative;
   width: 100%;
-  height: 55vw;
+  height: 25vh;
+  margin-top: 5%;
 }
 #display div #cover, #display div #back {
   width: 30vw;
@@ -356,30 +365,19 @@ main article p {
     height: 12vw;
   }
 }
-#display div #close {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-}
-#display article {
+#display section {
   width: 100%;
   overflow-y: scroll;
-  padding: 12%;
   box-sizing: content-box;
-  margin-top: auto;
+  scrollbar-gutter: stable both-edges;
 }
-#display article #title {
+#display section #title, #display section #musicians {
+  margin-top: 5%;
   margin-bottom: 5%;
 }
-#display article p {
+#display section p, #display section #title {
   padding-left: 5%;
   padding-right: 5%;
-}
-#display article #musicians {
-  margin-top: 40px;
 }
 
 .flexCenter, header {
@@ -407,7 +405,7 @@ main article p {
   align-items: center;
 }
 
-.flexCenterColumn, main article, #display article {
+.flexCenterColumn, main article {
   display: flex;
   flex-direction: column;
   justify-content: center;

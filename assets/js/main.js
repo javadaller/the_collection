@@ -57,7 +57,7 @@ function cardClick(data) {
 
     title.innerHTML=data.name+' ('+data.year+')';
     description.innerHTML=data.description;
-    musicians.innerHTML=data.artists;
+    musicians.innerHTML='Artists: '+data.artists;
 }
 
 //card close
@@ -72,7 +72,7 @@ close.addEventListener("click", (event) => {
 });
 
 async function closeCard() {
-    await sleep(500);
+    await sleep(300);
     display.style.display='none';
 }
 

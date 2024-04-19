@@ -70,6 +70,7 @@ main {
 
 #display {
     z-index: 10;
+    position: relative;
     display:none;
     flex-direction: column;
     justify-content: center;
@@ -92,10 +93,18 @@ main {
         width:50%;
     }
 
+    #close {
+        position: absolute;
+        top:15px;
+        right:15px;
+        @include box(30px);
+        cursor: pointer;
+    }
+
     div {
-        position: relative;
-        @include box(100%,55vw);
+        @include box(100%,25vh);
         @extend .flexCenter25px;
+        margin-top:5%;
 
         #cover, #back {
             @include box(30vw);
@@ -114,36 +123,22 @@ main {
                 @include box(12vw);
             }
         }
-
-        #close {
-            position: absolute;
-            top:15px;
-            right:15px;
-            @include box(30px);
-            cursor: pointer;
-        }
     }
 
-    article {
+    section {
         width:100%;
         overflow-y: scroll;
-        @extend .flexCenterColumn;
-        padding:12%;
         box-sizing: content-box;
-        margin-top: auto;
+        scrollbar-gutter: stable both-edges;
 
-        #title {
-            //margin-top: 5%;
+        #title, #musicians {
+            margin-top: 5%;
             margin-bottom: 5%;
         }
 
-        p {
+        p, #title {
             padding-left:5%;
             padding-right:5%;
-        }
-
-        #musicians {
-            margin-top: 40px;
         }
     }
 }
